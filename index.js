@@ -33,8 +33,8 @@ async function welcome() {
   rainbowTitle.stop();
 
   console.log(`
-    ${chalk.bgYellow('HOW TO PLAY')} 
-    I am a process on your computer...
+    ${chalk.bgBlue('HOW TO PLAY')} 
+    I am a process on your computer.
     If you get any question wrong I will be ${chalk.bgRed('killed')}
     So get all the questions right...
 
@@ -149,7 +149,6 @@ async function question5() {
 }
 
 // Run it with top-level await
-
 console.clear();
 await welcome();
 await askName();
